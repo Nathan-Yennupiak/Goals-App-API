@@ -1,0 +1,22 @@
+{
+  "name": "goals-api",
+  "version": "1.0.0",
+  "description": "Goal setter API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "author": "Nathan Yennupiak",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.4",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express-async-handler": "^1.2.0"
+  }
+}
